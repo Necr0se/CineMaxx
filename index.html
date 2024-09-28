@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CineMaxx</title>
+  </head>
+  <body>
+    <header>
+      <h1>What Can I watch?</h1>
+      <form id="form">
+        <input type="text" placeholder="Search" id="search" class="search" />
+      </form>
+    </header>
+    <select id="genreFilter">
+        <option value="">All Genres</option>
+    </select>
+    <select id="movieFilter">
+        <option value="popular">Popular</option>
+        <option value="now_playing">Now Playing</option>
+        <option value="top_rated">Top Rated</option>
+        <option value="upcoming">Upcoming</option>
+    </select>
+    <main id="main"></main>
+    <div id="modal" class="modal"></div>
+        <div class="modal-content">
+          <span id="close" class="close">&times;</span>
+          <div id="modal-body"></div>
+        </div>
+    </div>
+    <div id="pagination">
+       <button id="prev" class="btn">Previous</button>
+       <span id="pageNum">Page 1</span>
+       <button id="next" class="btn">Next</button>
+    </div>
+    <footer class="footer">
+      <p>
+        Created By NecInsightx
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
