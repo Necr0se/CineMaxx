@@ -51,7 +51,6 @@ header h1 {
     margin: 1rem;
 }
 
-/* Styling for both buttons */
 .btn {
     background-color: var(--secondary-color);
     color: white;
